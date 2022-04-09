@@ -1,0 +1,16 @@
+D:\The Vadde's\TheVaddes\TheVaddes.Data\bin\Debug\TheVaddes.Data.dll
+D:\The Vadde's\TheVaddes\TheVaddes.Data\bin\Debug\TheVaddes.Data.pdb
+D:\The Vadde's\TheVaddes\TheVaddes.Data\obj\Debug\TheVaddes.Data.csproj.AssemblyReference.cache
+D:\The Vadde's\TheVaddes\TheVaddes.Data\obj\Debug\TheVaddes.Data.csproj.CoreCompileInputs.cache
+D:\The Vadde's\TheVaddes\TheVaddes.Data\obj\Debug\TheVaddes.Data.dll
+D:\The Vadde's\TheVaddes\TheVaddes.Data\obj\Debug\TheVaddes.Data.pdb
+D:\The Vadde's\TheVaddes\TheVaddes.Data\bin\Debug\Newtonsoft.Json.dll
+D:\The Vadde's\TheVaddes\TheVaddes.Data\bin\Debug\System.Net.Http.Formatting.dll
+D:\The Vadde's\TheVaddes\TheVaddes.Data\bin\Debug\System.Web.Cors.dll
+D:\The Vadde's\TheVaddes\TheVaddes.Data\bin\Debug\System.Web.Http.Cors.dll
+D:\The Vadde's\TheVaddes\TheVaddes.Data\bin\Debug\System.Web.Http.dll
+D:\The Vadde's\TheVaddes\TheVaddes.Data\bin\Debug\Newtonsoft.Json.xml
+D:\The Vadde's\TheVaddes\TheVaddes.Data\bin\Debug\System.Net.Http.Formatting.xml
+D:\The Vadde's\TheVaddes\TheVaddes.Data\bin\Debug\System.Web.Http.xml
+D:\The Vadde's\TheVaddes\TheVaddes.Data\bin\Debug\System.Web.Http.Cors.xml
+D:\The Vadde's\TheVaddes\TheVaddes.Data\obj\Debug\TheVaddes.Data.csproj.CopyComplete
