@@ -1,0 +1,341 @@
+﻿++Solution 'TheVaddes' ‎(2 of 2 projects)
+i:{00000000-0000-0000-0000-000000000000}:TheVaddes.sln
+++TheVaddes.Data
+i:{00000000-0000-0000-0000-000000000000}:TheVaddes.Data
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++Properties
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:d:\the restaurant\thevadde\thevaddes.data\properties\
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\properties\
+++References
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++DAL
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:d:\the restaurant\thevadde\thevaddes.data\dal\
+++IDAL
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:d:\the restaurant\thevadde\thevaddes.data\idal\
+++Models
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:d:\the restaurant\thevadde\thevaddes.data\models\
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\models\
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\models\
+++DbConnection.cs
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:d:\the restaurant\thevadde\thevaddes.data\dbconnection.cs
+++packages.config
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:d:\the restaurant\thevadde\thevaddes.data\packages.config
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\packages.config
+++AssemblyInfo.cs
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:d:\the restaurant\thevadde\thevaddes.data\properties\assemblyinfo.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\properties\assemblyinfo.cs
+++Microsoft.CSharp
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++Newtonsoft.Json
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Configuration
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Core
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Data
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Data.DataSetExtensions
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Net.Http
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Net.Http.Formatting
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.Cors
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.Http
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.Http.Cors
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Xml
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Xml.Linq
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++FoodItemsRepository.cs
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:d:\the restaurant\thevadde\thevaddes.data\dal\fooditemsrepository.cs
+++IFoodItemsRepository.cs
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:d:\the restaurant\thevadde\thevaddes.data\idal\ifooditemsrepository.cs
+++FoodItemsModel.cs
+i:{4149ac9f-ccf4-4e4e-a5ce-d645d57b2cf2}:d:\the restaurant\thevadde\thevaddes.data\models\fooditemsmodel.cs
+++TheVaddes.API
+i:{00000000-0000-0000-0000-000000000000}:TheVaddes.API
+++App_Data
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\app_data\
+++App_Start
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\app_start\
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\app_start\
+++Areas
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\
+++Content
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\content\
+++Controllers
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\controllers\
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\controllers\
+++fonts
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\fonts\
+++Scripts
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\scripts\
+++Views
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\views\
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\
+++favicon.ico
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\favicon.ico
+++Global.asax
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\global.asax
+++Web.config
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\web.config
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\views\web.config
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\web.config
+++Antlr3.Runtime
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++Microsoft.Web.Infrastructure
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.ComponentModel.DataAnnotations
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Drawing
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Net.Http.WebRequest
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Runtime.Serialization
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.Abstractions
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.ApplicationServices
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.Entity
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.Helpers
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.Http.WebHost
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.Mvc
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.Optimization
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.Razor
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.Routing
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.WebPages
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.WebPages.Deployment
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++System.Web.WebPages.Razor
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++WebGrease
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++BundleConfig.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\app_start\bundleconfig.cs
+++FilterConfig.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\app_start\filterconfig.cs
+++RouteConfig.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\app_start\routeconfig.cs
+++WebApiConfig.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\app_start\webapiconfig.cs
+++HelpPage
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\
+++bootstrap-theme.css
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\content\bootstrap-theme.css
+++bootstrap-theme.css.map
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\content\bootstrap-theme.css.map
+++bootstrap-theme.min.css
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\content\bootstrap-theme.min.css
+++bootstrap-theme.min.css.map
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\content\bootstrap-theme.min.css.map
+++bootstrap.css
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\content\bootstrap.css
+++bootstrap.css.map
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\content\bootstrap.css.map
+++bootstrap.min.css
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\content\bootstrap.min.css
+++bootstrap.min.css.map
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\content\bootstrap.min.css.map
+++Site.css
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\content\site.css
+++FoodItemsController.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\controllers\fooditemscontroller.cs
+++HomeController.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\controllers\homecontroller.cs
+++ValuesController.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\controllers\valuescontroller.cs
+++glyphicons-halflings-regular.eot
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\fonts\glyphicons-halflings-regular.eot
+++glyphicons-halflings-regular.svg
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\fonts\glyphicons-halflings-regular.svg
+++glyphicons-halflings-regular.ttf
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\fonts\glyphicons-halflings-regular.ttf
+++glyphicons-halflings-regular.woff
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\fonts\glyphicons-halflings-regular.woff
+++glyphicons-halflings-regular.woff2
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\fonts\glyphicons-halflings-regular.woff2
+++bootstrap.js
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\scripts\bootstrap.js
+++bootstrap.min.js
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\scripts\bootstrap.min.js
+++jquery-3.4.1.intellisense.js
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\scripts\jquery-3.4.1.intellisense.js
+++jquery-3.4.1.js
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\scripts\jquery-3.4.1.js
+++jquery-3.4.1.min.js
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\scripts\jquery-3.4.1.min.js
+++jquery-3.4.1.min.map
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\scripts\jquery-3.4.1.min.map
+++jquery-3.4.1.slim.js
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\scripts\jquery-3.4.1.slim.js
+++jquery-3.4.1.slim.min.js
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\scripts\jquery-3.4.1.slim.min.js
+++jquery-3.4.1.slim.min.map
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\scripts\jquery-3.4.1.slim.min.map
+++modernizr-2.8.3.js
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\scripts\modernizr-2.8.3.js
+++Home
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\views\home\
+++Shared
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\views\shared\
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\shared\
+++_ViewStart.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\views\_viewstart.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\_viewstart.cshtml
+++Global.asax.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\global.asax.cs
+++Web.Debug.config
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\web.debug.config
+++Web.Release.config
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\web.release.config
+++ModelDescriptions
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\
+++SampleGeneration
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\samplegeneration\
+++ApiDescriptionExtensions.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\apidescriptionextensions.cs
+++HelpPage.css
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\helppage.css
+++HelpPageAreaRegistration.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\helppagearearegistration.cs
+++HelpPageConfigurationExtensions.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\helppageconfigurationextensions.cs
+++XmlDocumentationProvider.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\xmldocumentationprovider.cs
+++Index.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\views\home\index.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\index.cshtml
+++_Layout.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\views\shared\_layout.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\shared\_layout.cshtml
+++Error.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\views\shared\error.cshtml
+++HelpPageConfig.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\app_start\helppageconfig.cs
+++HelpController.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\controllers\helpcontroller.cs
+++CollectionModelDescription.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\collectionmodeldescription.cs
+++ComplexTypeModelDescription.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\complextypemodeldescription.cs
+++DictionaryModelDescription.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\dictionarymodeldescription.cs
+++EnumTypeModelDescription.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\enumtypemodeldescription.cs
+++EnumValueDescription.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\enumvaluedescription.cs
+++IModelDocumentationProvider.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\imodeldocumentationprovider.cs
+++KeyValuePairModelDescription.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\keyvaluepairmodeldescription.cs
+++ModelDescription.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\modeldescription.cs
+++ModelDescriptionGenerator.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\modeldescriptiongenerator.cs
+++ModelNameAttribute.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\modelnameattribute.cs
+++ModelNameHelper.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\modelnamehelper.cs
+++ParameterAnnotation.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\parameterannotation.cs
+++ParameterDescription.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\parameterdescription.cs
+++SimpleTypeModelDescription.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\modeldescriptions\simpletypemodeldescription.cs
+++HelpPageApiModel.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\models\helppageapimodel.cs
+++HelpPageSampleGenerator.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\samplegeneration\helppagesamplegenerator.cs
+++HelpPageSampleKey.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\samplegeneration\helppagesamplekey.cs
+++ImageSample.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\samplegeneration\imagesample.cs
+++InvalidSample.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\samplegeneration\invalidsample.cs
+++ObjectGenerator.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\samplegeneration\objectgenerator.cs
+++SampleDirection.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\samplegeneration\sampledirection.cs
+++TextSample.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\samplegeneration\textsample.cs
+++Help
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\
+++DisplayTemplates
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\
+++Api.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\api.cshtml
+++ResourceModel.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\resourcemodel.cshtml
+++ApiGroup.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\apigroup.cshtml
+++CollectionModelDescription.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\collectionmodeldescription.cshtml
+++ComplexTypeModelDescription.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\complextypemodeldescription.cshtml
+++DictionaryModelDescription.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\dictionarymodeldescription.cshtml
+++EnumTypeModelDescription.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\enumtypemodeldescription.cshtml
+++HelpPageApiModel.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\helppageapimodel.cshtml
+++ImageSample.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\imagesample.cshtml
+++InvalidSample.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\invalidsample.cshtml
+++KeyValuePairModelDescription.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\keyvaluepairmodeldescription.cshtml
+++ModelDescriptionLink.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\modeldescriptionlink.cshtml
+++Parameters.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\parameters.cshtml
+++Samples.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\samples.cshtml
+++SimpleTypeModelDescription.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\simpletypemodeldescription.cshtml
+++TextSample.cshtml
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\areas\helppage\views\help\displaytemplates\textsample.cshtml
+++System.Runtime.CompilerServices.Unsafe
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++Unity.Abstractions
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++Unity.Container
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++Unity.WebApi
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:
+++UnityConfig.cs
+i:{a3c5120a-1ad4-44b6-9d6d-214aa32009ae}:d:\the restaurant\thevadde\thevaddes.api\app_start\unityconfig.cs
+++User

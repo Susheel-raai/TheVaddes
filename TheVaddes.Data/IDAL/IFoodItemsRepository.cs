@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,8 +7,8 @@ using TheVaddes.Data.Models;
 
 namespace TheVaddes.Data.IDAL
 {
-    public interface IFoodItemsRepository
-    {
-        List<FoodItemsModel> GetAllFoodItems();
-    }
+  public interface IFoodItemsRepository
+  {
+    List<FoodItemsModel> GetAllFoodItems();
+  }
 }

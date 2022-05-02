@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -14,6 +14,7 @@ namespace TheVaddes.Data.DAL
     {
         public List<FoodItemsModel> GetAllFoodItems()
         {
+            connection();
             List<FoodItemsModel> foodItemslist = new List<FoodItemsModel>();
 
             SqlCommand cmd = new SqlCommand("GetItems", con);
@@ -35,7 +36,8 @@ namespace TheVaddes.Data.DAL
                         itemPrice = Convert.ToDecimal(dr["itemPrice"]),
                         itemImage = Convert.ToString(dr["itemImage"]),
                         itemDescription = Convert.ToString(dr["itemDescription"]),
-                        itemReview = Convert.ToInt32(dr["itemReview"])
+                        itemReview = Convert.ToDecimal(dr["itemReview"]),
+                        itemQty = Convert.ToInt32(dr["itemQty"])
                     });
             }
             return foodItemslist;

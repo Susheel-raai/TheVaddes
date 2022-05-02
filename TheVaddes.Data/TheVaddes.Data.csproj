@@ -58,9 +58,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\FoodItemsRepository.cs" />
+    <Compile Include="DAL\UserRepository.cs" />
     <Compile Include="DbConnection.cs" />
     <Compile Include="IDAL\IFoodItemsRepository.cs" />
+    <Compile Include="IDAL\IUserRepository.cs" />
     <Compile Include="Models\FoodItemsModel.cs" />
+    <Compile Include="Models\UserModel.cs" />
+    <Compile Include="Models\UserOrderModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

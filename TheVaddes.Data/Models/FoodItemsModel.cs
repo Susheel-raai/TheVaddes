@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +14,9 @@ namespace TheVaddes.Data.Models
         public decimal itemPrice    { get; set; }
         public string itemImage     { get; set; }
         public string itemDescription   { get; set; }
-        public int itemReview { get; set; }
+        public decimal itemReview { get; set; }
+
+        public int itemQty { get; set; }
 
     }
 }
