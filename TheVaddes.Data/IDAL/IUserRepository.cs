@@ -12,8 +12,15 @@ namespace TheVaddes.Data.IDAL
     List<UserModel> GetAllUsers();
     int AddUser(UserModel user);
 
-    int AddUserOrders();
+    int AddUserOrders(List<UserOrderModel> userOrder);
 
     List<UserOrderModel> GetUsersOrders();
+
+    List<UserOrderModel> GetPayments();
+
+    int RemoveCard(UserOrderModel userOrders);
+    int CancelOrder(UserOrderModel userOrders);
+    int UserLogsDeatils(string username);
+    List<UserLogModel> GetUserLogs();
   }
 }

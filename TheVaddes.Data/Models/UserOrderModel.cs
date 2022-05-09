@@ -23,5 +23,6 @@ namespace TheVaddes.Data.Models
     public DateTime expiryDate { get; set; }
     public int cvv { get; set; }
     public DateTime orderDate { get; set; }
+    public string cardType { get; set; }
   }
 }

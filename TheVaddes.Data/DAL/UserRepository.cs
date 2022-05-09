@@ -82,11 +82,6 @@ namespace TheVaddes.Data.DAL
       
     }
 
-    public int AddUserOrders()
-    {
-      throw new NotImplementedException();
-    }
-
     public List<UserOrderModel> GetUsersOrders()
     {
       connection();
@@ -117,10 +112,147 @@ namespace TheVaddes.Data.DAL
               cardNumber = Convert.ToString(dr["cardNumber"]),
               expiryDate = Convert.ToDateTime(dr["expiryDate"]),
               cvv = Convert.ToInt32(dr["cvv"]),
-              orderDate = Convert.ToDateTime(dr["orderDate"])
+              orderDate = Convert.ToDateTime(dr["orderDate"]),
+              cardType = Convert.ToString(dr["cardType"])
             });
       }
       return orderList;
+    }
+
+    public int AddUserOrders(List<UserOrderModel> userOrder)
+    {
+      connection();
+      DataTable dt = new DataTable();
+
+      dt.Columns.Add(new DataColumn("itemId",typeof(int)));
+      dt.Columns.Add(new DataColumn("itemName",typeof(string)));
+      dt.Columns.Add(new DataColumn("itemType", typeof(string)));
+      dt.Columns.Add(new DataColumn("itemPrice", typeof(decimal)));
+      dt.Columns.Add(new DataColumn("itemImage", typeof(string)));
+      dt.Columns.Add(new DataColumn("itemDescription", typeof(string)));
+      dt.Columns.Add(new DataColumn("itemReview", typeof(decimal)));
+      dt.Columns.Add(new DataColumn("itemQty", typeof(int)));
+      dt.Columns.Add(new DataColumn("userName", typeof(string)));
+      dt.Columns.Add(new DataColumn("cardNumber", typeof(string)));
+      dt.Columns.Add(new DataColumn("expiryDate", typeof(DateTime)));
+      dt.Columns.Add(new DataColumn("cvv", typeof(string)));
+      dt.Columns.Add(new DataColumn("cardType",typeof (string)));
+
+      foreach(var order in userOrder)
+      {
+        dt.Rows.Add(order.itemId, order.itemName, order.itemType, order.itemPrice, order.itemImage, order.itemDescription, order.itemReview, order.itemQty,
+          order.userName, order.cardNumber, order.expiryDate, order.cvv,order.cardType);
+      }
+
+      SqlCommand cmd = new SqlCommand("AddUserOrders", con);
+      cmd.CommandType = CommandType.StoredProcedure;
+      cmd.Parameters.Add(new SqlParameter("@userOrdersTable", dt));
+      con.Open();
+      int i = cmd.ExecuteNonQuery();
+      if (i >= 0)
+        return 1;
+      else
+        return 0;
+    }
+
+    public List<UserOrderModel> GetPayments()
+    {
+      connection();
+      List<UserOrderModel> paymentList = new List<UserOrderModel>();
+
+      SqlCommand cmd = new SqlCommand("GetPayments", con);
+      cmd.CommandType = CommandType.StoredProcedure;
+      SqlDataAdapter sd = new SqlDataAdapter(cmd);
+      DataTable dt = new DataTable();
+
+      con.Open();
+      sd.Fill(dt);
+      con.Close();
+      foreach (DataRow dr in dt.Rows)
+      {
+        paymentList.Add(
+            new UserOrderModel
+            {
+              cardNumber = Convert.ToString(dr["cardNumber"]),
+              expiryDate = Convert.ToDateTime(dr["expiryDate"]),
+              cvv = Convert.ToInt32(dr["cvv"]),
+              userName = Convert.ToString(dr["userName"]),
+              cardType = Convert.ToString(dr["cardType"])
+            });
+      }
+      return paymentList;
+    }
+
+    public int RemoveCard(UserOrderModel userOrders)
+    {
+      connection();
+      SqlCommand cmd = new SqlCommand("removeCard", con);
+      cmd.CommandType = CommandType.StoredProcedure;
+      cmd.Parameters.Add(new SqlParameter("@cardNumber", userOrders.cardNumber));
+      cmd.Parameters.Add(new SqlParameter("@userName", userOrders.userName));
+
+      con.Open();
+      int i = cmd.ExecuteNonQuery();
+      if (i >= 0)
+        return 1;
+      else
+        return 0;
+    }
+
+    public int CancelOrder(UserOrderModel userOrders)
+    {
+      connection();
+      SqlCommand cmd = new SqlCommand("cancelOrder", con);
+      cmd.CommandType = CommandType.StoredProcedure;
+      cmd.Parameters.Add(new SqlParameter("@orderDate", userOrders.orderDate));
+      cmd.Parameters.Add(new SqlParameter("@userName", userOrders.userName));
+      con.Open();
+      int i = cmd.ExecuteNonQuery();
+      if (i >= 0)
+        return 1;
+      else
+        return 0;
+    }
+
+    public int UserLogsDeatils(string username)
+    {
+      connection();
+      SqlCommand cmd = new SqlCommand("UserLogsDetails", con);
+      cmd.CommandType = CommandType.StoredProcedure;
+
+      cmd.Parameters.Add(new SqlParameter("@userName", username));
+
+      con.Open();
+      int i = cmd.ExecuteNonQuery();
+      if (i >= 0)
+        return 1;
+      else
+        return 0;
+    }
+
+    public List<UserLogModel> GetUserLogs()
+    {
+      connection();
+      List<UserLogModel> userLogList = new List<UserLogModel>();
+
+      SqlCommand cmd = new SqlCommand("getUserLogsDetails", con);
+      cmd.CommandType = CommandType.StoredProcedure;
+      SqlDataAdapter sd = new SqlDataAdapter(cmd);
+      DataTable dt = new DataTable();
+
+      con.Open();
+      sd.Fill(dt);
+      con.Close();
+      foreach (DataRow dr in dt.Rows)
+      {
+        userLogList.Add(
+            new UserLogModel
+            {
+              userName = Convert.ToString(dr["userName"]),
+              logOutTime = Convert.ToDateTime(dr["logOutTime"])
+            });
+      }
+      return userLogList;
     }
   }
 }

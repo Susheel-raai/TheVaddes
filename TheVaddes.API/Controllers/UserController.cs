@@ -64,5 +64,94 @@ namespace TheVaddes.API.Controllers
       }
     }
 
+    [HttpPost]
+    [Route("AddUserOrders")]
+    public IHttpActionResult AddUserOrders(List<UserOrderModel> userOrder)
+    {
+      try
+      {
+        int results = _user.AddUserOrders(userOrder);
+        return Ok(results);
+      }
+      catch (Exception ex)
+      {
+        return BadRequest(ex.Message);
+      }
+    }
+
+    [HttpGet]
+    [Route("GetPayments")]
+    public IHttpActionResult GetPayments()
+    {
+      try
+      {
+        var results = _user.GetPayments();
+        return Ok(results);
+      }
+      catch (Exception ex)
+      {
+        return BadRequest(ex.Message);
+      }
+    }
+
+    [HttpPost]
+    [Route("RemoveCard")]
+    public IHttpActionResult RemoveCard(UserOrderModel userOrders)
+    {
+      try
+      {
+        int results = _user.RemoveCard(userOrders);
+         return Ok(results);
+      }
+      catch (Exception ex)
+      {
+        return BadRequest(ex.Message);
+      }
+    }
+
+    [HttpPost]
+    [Route("CancelOrder")]
+    public IHttpActionResult CancelOrder(UserOrderModel userOrders)
+    {
+      try
+      {
+        int results = _user.CancelOrder(userOrders);
+        return Ok(results);
+      }
+      catch (Exception ex)
+      {
+        return BadRequest(ex.Message);
+      }
+    }
+
+    [HttpPost]
+    [Route("UserLogsDeatils")]
+    public IHttpActionResult UserLogsDeatils(string username)
+    {
+      try
+      {
+        int results = _user.UserLogsDeatils(username);
+        return Ok(results);
+      }
+      catch (Exception ex)
+      {
+        return BadRequest(ex.Message);
+      }
+    }
+
+    [HttpGet]
+    [Route("GetUserLogs")]
+    public IHttpActionResult GetUserLogs()
+    {
+      try
+      {
+        var results = _user.GetUserLogs();
+        return Ok(results);
+      }
+      catch (Exception ex)
+      {
+        return BadRequest(ex.Message);
+      }
+    }
   }
 }
