@@ -24,5 +24,7 @@ namespace TheVaddes.Data.Models
     public int cvv { get; set; }
     public DateTime orderDate { get; set; }
     public string cardType { get; set; }
+    public string address { get; set; }
+    public string postcode { get; set; }
   }
 }

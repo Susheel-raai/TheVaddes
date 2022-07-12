@@ -153,5 +153,20 @@ namespace TheVaddes.API.Controllers
         return BadRequest(ex.Message);
       }
     }
+
+    [HttpGet]
+    [Route("GetPostcodes")]
+    public IHttpActionResult GetPostcodes(string code)
+    {
+      try
+      {
+        var results = _user.GetPostcodes(code);
+        return Ok(results);
+      }
+      catch (Exception ex)
+      {
+        return BadRequest(ex.Message);
+      }
+    }
   }
 }

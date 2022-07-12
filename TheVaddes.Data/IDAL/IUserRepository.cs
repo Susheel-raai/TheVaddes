@@ -22,5 +22,6 @@ namespace TheVaddes.Data.IDAL
     int CancelOrder(UserOrderModel userOrders);
     int UserLogsDeatils(string username);
     List<UserLogModel> GetUserLogs();
+    List<Postcodes> GetPostcodes(string code);
   }
 }

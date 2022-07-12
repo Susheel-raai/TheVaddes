@@ -137,11 +137,13 @@ namespace TheVaddes.Data.DAL
       dt.Columns.Add(new DataColumn("expiryDate", typeof(DateTime)));
       dt.Columns.Add(new DataColumn("cvv", typeof(string)));
       dt.Columns.Add(new DataColumn("cardType",typeof (string)));
+      dt.Columns.Add(new DataColumn("address", typeof(string)));
+      dt.Columns.Add(new DataColumn("postcode", typeof(string)));
 
-      foreach(var order in userOrder)
+      foreach (var order in userOrder)
       {
         dt.Rows.Add(order.itemId, order.itemName, order.itemType, order.itemPrice, order.itemImage, order.itemDescription, order.itemReview, order.itemQty,
-          order.userName, order.cardNumber, order.expiryDate, order.cvv,order.cardType);
+          order.userName, order.cardNumber, order.expiryDate, order.cvv,order.cardType,order.address,order.postcode);
       }
 
       SqlCommand cmd = new SqlCommand("AddUserOrders", con);
@@ -253,6 +255,33 @@ namespace TheVaddes.Data.DAL
             });
       }
       return userLogList;
+    }
+
+    public List<Postcodes> GetPostcodes(string code)
+    {
+      connection();
+      List<Postcodes> postcodesList = new List<Postcodes>();
+
+      SqlCommand cmd = new SqlCommand("GetPostCodes", con);
+      cmd.CommandType = CommandType.StoredProcedure;
+      cmd.Parameters.Add(new SqlParameter("@code", code));
+      SqlDataAdapter sd = new SqlDataAdapter(cmd);
+      DataTable dt = new DataTable();
+
+      con.Open();
+      sd.Fill(dt);
+      con.Close();
+      foreach(DataRow dr in dt.Rows)
+      {
+        postcodesList.Add(
+          new Postcodes
+          {
+            postcode = Convert.ToString(dr["postcode"]),
+            latitude = Convert.ToDecimal(dr["latitude"]),
+            longitude = Convert.ToDecimal(dr["longitude"])
+          });
+      }
+      return postcodesList;
     }
   }
 }
